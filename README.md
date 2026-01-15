@@ -1,5 +1,5 @@
 # End-to-End Supply Chain Control Tower with Risk & Financial Impact Analysis
-## Executive Summary
+## Project Summary
 ### Business Context
 ## Methodology
 ### Tech Stack
