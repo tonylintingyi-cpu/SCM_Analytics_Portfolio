@@ -3,8 +3,9 @@
 ### Business Context
 ## Methodology
 ### Tech Stack
-- !(https://github.com/tonylintingyi-cpu/SCM_Analytics_Portfolio/blob/main/SQL)
-
+- SQL
+- Python
+- Tableau
 
 ## Risk Exposure & Supply Chain Resilience
 ## Business Recommendation
