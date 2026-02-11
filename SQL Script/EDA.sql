@@ -103,7 +103,7 @@ GROUP BY days_actual, days_scheduled;
 
 
 -- Second Class delivery performance: scheduled vs actual days
--- Unlike First Class (consistent 1-day delay), Second Class has variable delays (2-6 days)
+-- Unlike First Class (consistent 1-day delay), Second Class has variable delays (1-4 days)
 SELECT 
     days_actual,
     days_scheduled,
