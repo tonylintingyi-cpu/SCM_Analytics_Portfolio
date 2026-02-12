@@ -135,8 +135,7 @@ ORDER BY ontime_rate DESC
 LIMIT 10;
 
 
-
--- Category ABC Classification: identify profit contribution tiers
+-- view 2: Category ABC Classification: identify profit contribution tiers
 -- Custom threshold: A-class = top 85% (adjusted from standard 80% based on observed profit gaps)
 DROP VIEW IF EXISTS v_category_abc_analysis;
 CREATE VIEW v_category_abc_analysis AS
