@@ -154,7 +154,7 @@ FROM(
 	SELECT 
 		category_name, 
 		ROUND(SUM(profit), 0) AS total_profit
-	FROM v_item_profit_base
+	FROM cleaned_order
 	GROUP BY category_name
 )AS category_totals;
 
@@ -172,7 +172,7 @@ SELECT
     MAX(profit) AS best_transaction,   
     MIN(profit) AS worst_transaction,  
     ROUND(AVG(profit),2) AS avg_profit_per_item
-FROM v_item_profit_base
+FROM cleaned_order
 GROUP BY product_name
 HAVING SUM(profit) < 0
 ORDER BY total_profit;
