@@ -136,22 +136,6 @@ LIMIT 10;
 
 
 
--- view 2: v_item_profit_base
-DROP VIEW IF EXISTS v_item_profit_base;
-CREATE VIEW v_item_profit_base AS
-SELECT
-	-- key id
-	item_id,
-	-- product
-	product_name,
-	category_name,
-	-- financial field
-	quantity,
-	discount_total,
-	profit
-FROM cleaned_order;
-
-
 -- Category ABC Classification: identify profit contribution tiers
 -- Custom threshold: A-class = top 85% (adjusted from standard 80% based on observed profit gaps)
 DROP VIEW IF EXISTS v_category_abc_analysis;
