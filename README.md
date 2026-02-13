@@ -10,8 +10,8 @@ This project analyses DataCo's **order and shipping performance data** to uncove
 - Fulfilment SLA accuracy by shipping tier
 - Product category contribution to profit and sales volume
 
-The SQL queries for data cleaning are available [here]().  
-The SQL queries for exploratory data analysis are available [here]().
+The SQL queries for data cleaning are available [here](https://github.com/tonylintingyi-cpu/Logistics_and_ABC_Analysis/blob/4fe69f1232383b70fa54190c0ecf43dd28cec3a0/SQL%20Script/Data%20Cleaning.sql).  
+The SQL queries for exploratory data analysis are available [here](https://github.com/tonylintingyi-cpu/Logistics_and_ABC_Analysis/blob/4fe69f1232383b70fa54190c0ecf43dd28cec3a0/SQL%20Script/EDA.sql).
 
 ---
 
@@ -19,7 +19,8 @@ The SQL queries for exploratory data analysis are available [here]().
 
 DataCo Global's datasets have one table that includes 52 columns and 180,519 rows. To enhance recognition of the column title, I created a cleaned_order table with a changed column title. For analytics purposes in Tableau, two views were created from the cleaned_order table.
 
-![ERD Diagram]()
+<img width="833" height="641" alt="截圖 2026-02-12 下午2 09 58" src="https://github.com/user-attachments/assets/deb4f5cb-af9e-460c-aaa3-e5d31a4c3969" />
+
 
 The SQL queries for a variety of data quality checks can be found [here]().
 
