@@ -16,7 +16,7 @@ The SQL queries for exploratory data analysis are available [here](https://githu
 
 ## Data Structure Overview
 
-DataCo Global's datasets have one table that includes 52 columns and 180,519 rows. To enhance recognition of the column title, I created a cleaned_order table with a changed column title. For analytics purposes in Tableau, two views were created from the cleaned_order table.
+DataCo Global's dataset has one table that includes 52 columns and 180,519 rows. To improve column readability, I created a cleaned_order table with renamed columns. To support analysis in Tableau, two views were created from the cleaned_order table. 
 
 <img width="833" height="641" alt="截圖 2026-02-12 下午2 09 58" src="https://github.com/user-attachments/assets/deb4f5cb-af9e-460c-aaa3-e5d31a4c3969" />
 
@@ -26,7 +26,7 @@ The SQL queries for a variety of data quality checks can be found [here](https:/
 
 ## Executive Summary
 
-The company's delivery performance reveals a systematic fulfilment issue: **over 80% of orders experience 1–2 days of delay**, signaling operational gaps across shipping tiers.
+The company's delivery performance reveals a systematic fulfilment issue: **over 80% of orders experience 1–2 days of delay**, signalling operational gaps across shipping tiers.
 
 - **First Class shipping** suffers from consistent overcommitment — every order is delayed by exactly 1 day, suggesting the promised delivery window is structurally unrealistic.
 - **Second Class shipping** shows greater variability, with delays ranging from 1 to 4 days, indicating less predictable bottlenecks in the fulfilment pipeline.
@@ -43,7 +43,7 @@ The overall on-time delivery rate is only **42.69%**, meaning more than half of 
 
 Performance varies significantly by shipping mode. Standard Class performs best at **60.15%** on-time, followed by Same Day at **51.63%**. The two underperformers are:
 
-- **First Class has a 0% on-time rate.** Every order is promised 1-day delivery but takes 2 days. This isn't a random delay — it's a consistent 1-day gap, which means the promised delivery window is simply set too tight.
+- **First Class has a 0% on-time rate.** Every order is promised 1-day delivery, but takes 2 days. This isn't a random delay — it's a consistent 1-day gap, which means the promised delivery window is simply set too tight.
 - **Second Class has a 20.01% on-time rate**, with delays ranging from 1 to 4 days. Unlike First Class, the delay pattern here is unpredictable. This issue is not region-specific — all markets show roughly the same ~20% on-time rate, and even the best-performing countries stay below 30%.
 
 <div align="center">
